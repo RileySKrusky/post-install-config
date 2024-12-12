@@ -22,14 +22,17 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 1) Configuring Roles
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+2) Configuring Departments
+3) Configuring Teams
+4) Ticket Permission
+5) Configuring Agents
+6) Adding New Users
+7) Configuring SLA's (Service Level Agreements)
+8) Creating Help Topics
 
 <h3> 1) Configuring Roles</h3>
 
-<p>In this step, I will be showing you how to configure roles to your employees/admins. First login to your Admin account with this link : "http://localhost/osTicket/scp/login.php". Once you are logged into your admin account, on the top right of the page you will see either "Agent Panel" or "Admin Panel". Make sure you are in the "Admin Panel". This will show you the roles you have by default, but it also shows you how to edit certain roles and how to create certain roles. In this tutorial, I will be creating a "Supreme Admin" role that will be able to do basically anything as an admin. </p>
+<p>In this step, I will be showing you how to configure roles to your employees/admins. First login to your Admin account with this link : "http://localhost/osTicket/scp/login.php". Once you are logged into your admin account, on the top right of the page you will see either "Agent Panel" or "Admin Panel". Make sure you are in the "Admin Panel", then go to "Agents" -> "Roles". This will show you the roles you have by default, but it also shows you how to edit certain roles and how to create certain roles. </p>
 
 <p>
 <img src="https://i.imgur.com/4YWjpPw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -71,9 +74,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <img src="https://i.imgur.com/aYjjVS4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<h3> 6) Configuring SLA's (Service Level Agreements)</h3>
+<h3> 7) Configuring SLA's (Service Level Agreements)</h3>
 
-<p>This step will include creating your SLA's specific to your company. this will help delegate the severity of your tickets, how long will it take to finish your tickets and what schedule your tickets will be listed as: Business hours (24/5 or 24/7). First switch back to your "Admin Panel", then go to "Manage" -> "SLA" and "Add New SLA Plan".  </p>
+<p>This step will include creating your SLA's specific to your company. this will help delegate the severity of your tickets, how long it will take to finish your tickets and what schedule your tickets will be listed on. First switch back to your "Admin Panel", then go to "Manage" -> "SLA" and "Add New SLA Plan".  </p>
 
 <img src="https://i.imgur.com/B2CFz7s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -84,7 +87,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <img src="https://i.imgur.com/h7c9392.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<h3> 7) Creating Help Topics</h3>
+<h3> 8) Creating Help Topics</h3>
 
 <p>Help Topics are what your users and employees will use to help categorise your tickets. For Example: One of your admins is having computer issues, we can list a ticket under "Personal Computer Issues" so that when someone opens that ticket, they have a general understanding on what that ticket is about.</p>
 
@@ -98,24 +101,5 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>This concludes our OsTicket Post Installation Proccess! Congratulation and I hope this helped!</p>
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
